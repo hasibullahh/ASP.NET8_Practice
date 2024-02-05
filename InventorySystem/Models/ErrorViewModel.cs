@@ -1,4 +1,4 @@
-namespace ASP.NET8_Practice.Models
+namespace InventorySystem.Models
 {
     public class ErrorViewModel
     {

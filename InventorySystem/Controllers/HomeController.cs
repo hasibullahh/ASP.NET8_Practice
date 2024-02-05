@@ -1,8 +1,8 @@
-using ASP.NET8_Practice.Models;
+using InventorySystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ASP.NET8_Practice.Controllers
+namespace InventorySystem.Controllers
 {
     public class HomeController : Controller
     {

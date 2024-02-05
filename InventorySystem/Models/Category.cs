@@ -1,14 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ASP.NET8_Practice.Models
+namespace InventorySystem.Models
 {
-    public class Teacher
+    public class Category
     {
         [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public string? Address { get; set; }
-        public string? PhoneNumber { get; set; }
+        public int Status { get; set; } = 0;
     }
 }

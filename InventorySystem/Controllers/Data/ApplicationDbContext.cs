@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ASP.NET8_Practice.Models
+namespace InventorySystem.Controllers.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -8,7 +8,6 @@ namespace ASP.NET8_Practice.Models
         {
 
         }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<Student> Students { get; set; }
+
     }
 }
